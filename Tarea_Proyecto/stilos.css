@@ -1,0 +1,505 @@
+h1{
+    color: rgb(228, 233, 188);
+    text-align:center;
+    margin: auto;
+}
+
+h2{
+    color: rgb(225, 231, 137);
+    text-align: Center;
+    margin: auto;
+    
+}
+
+.name h2{
+    color: rgb(226, 238, 65);
+    text-align: Center;
+    margin: auto;
+    
+}
+
+.parder .rojo{
+    color:yellow;
+}
+
+hr{
+    
+    margin-left: 300pt;
+    border-color: #3cc485;
+    
+}
+body{
+    background-color:#1d455c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding:0;
+    margin:0;
+    margin-left: 100pt;
+    margin-right:100pt;
+}
+
+span{
+    color:blanchedalmond;
+}
+
+p{
+    color:rgb(205, 240, 237);
+    margin: auto;
+    margin-right: -5pt;
+    text-align: center;
+    font-style: italic;
+    font-size: 10pt;
+    
+}
+
+p2{
+    color:rgb(134, 199, 211);
+    margin: auto;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    
+}
+
+p3{
+    color:cornsilk;
+    margin: auto;
+    text-align:right;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+:root{
+    --width: 300px ;
+    --padding:10px;
+    --bgcolor:rgb(43, 139, 194);
+    --hovercolor:rgb(216, 143, 143);
+    --width-collapsed:50px;
+}
+
+.body-expanded{
+    margin-left:var(--width);
+    
+}
+
+#main-container{
+    color:white;
+}
+
+#sidemenu{
+    background-color: var(--bgcolor);
+    color:white;
+    position:absolute;
+    height: 85%;
+    left:10;
+}
+
+#sidemenu #header #title{
+    box-sizing:border-box;
+    overflow: hidden;
+}
+
+.icon img{
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    display:inline;
+    background-color:rgb(234, 242, 243);
+    padding: var(--padding);
+}
+
+#sidemenu #header #title, #sidemenu #header #menu-btn{
+   vertical-align: middle;
+   margin-top: 50px;
+}
+
+#sidemenu #header #menu-btn{
+    display:inline-block;
+}
+
+#sidemenu #header #menu-btn:hover{
+    background-color: var(--hovercolor);
+}
+
+#sidemenu #profile{
+    border-bottom: solid 1px var(--hovercolor);
+    padding: var(--padding) 0;
+    text-align: center;
+}
+
+#sidemenu #profile #photo{
+    box-sizing: border-box;
+    padding: var(--padding);
+    margin: 0 auto;
+}
+
+#sidemenu #menu-items {
+    overflow: hidden;
+}
+
+#sidemenu #menu-items .item {
+  width: var(--width);
+}
+
+#sidemenu #menu-items .item .icon{
+   display: inline-block;
+}
+
+#sidemenu #menu-items .item .title{
+    font-size: 14px;
+    vertical-align: middle ;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#sidemenu #menu-items .item a{
+    display: block;
+    text-align: center;
+    color: rgb(87, 32, 32);
+    padding: 12px;
+    border-left: rgb(58, 41, 41);
+    border-bottom: snow;
+}
+#sidemenu #menu-items .item1 a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    background-color: rgb(130, 212, 181);
+    color:rgb(87, 32, 32);    
+}
+
+#sidemenu #menu-items .item a:hover{
+    background-color: var(--hovercolor);
+}
+
+.tdep:hover{
+    background-color:rgb(85, 151, 142);
+}
+
+.tcat:hover{
+    background-color:rgb(85, 151, 142);
+}
+
+.tpas:hover{
+    background-color:rgb(85, 151, 142);
+}
+
+.thum:hover{
+    background-color:rgb(85, 151, 142);
+}
+
+#sidemenu #menu-items .item .title{
+    padding: 10px;
+    text-align: center;
+    margin-left: 0pt;
+}
+
+img{
+    width: 100px; 
+    height: 90px ; 
+    display: block;
+    margin: auto;    
+    border-radius: 4pt; 
+    border:1px solid rgba(74, 183, 187, 0.432);
+    
+}
+
+.parder p2{
+    color: white;
+    text-align: center;
+}
+
+.cons {
+    list-style: none;
+    color: white;
+}
+
+.menu2 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+
+.menu2 h2{
+    font-size: 9pt;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.menu2 h2 ul{
+    font-size: 9pt;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.menu2 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline;
+}
+
+.menu2 ul li{
+    display: block;
+    padding: 0.5 rem 1 rem ;
+}
+
+.container{
+    width: 500px;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.parder .div{
+    text-align: center;
+    color: white;
+}
+
+.galery2{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin-left: 250pt;
+}
+
+.contact {
+    color:white;
+}
+
+table{
+    text-align: left;
+}
+
+.tmpl{
+    margin-left: 50pt;
+}
+
+.educacion {
+    text-align: left;
+    margin-left: 50pt;
+
+}
+
+.educacion img{
+    width: 400px;
+    height: 250px;
+}
+
+.tmpl img{
+    width: 400px;
+    height: 250px;
+}
+
+.jdr{
+    margin-left: 300pt;
+    margin-right: -310pt;
+}
+
+.galery2 table img{
+    width: 400px;
+    height: 200px;
+}
+
+.galery2 table{
+    margin-right:20pt;
+}
+
+.acerca h2{
+    font-size: 9pt;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.rojo{
+    margin-left: 630pt;
+    margin-right: 310pt;
+    border-color:rgb(62, 199, 158);
+}
+
+.cons h2{
+    margin-left: 200pt;
+    margin-right: 330pt;
+    font-size: 9pt;
+}
+
+.conos a{
+    font-size: 9pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(235, 226, 226);
+    margin-left: 20pt;
+    margin-right: 20pt;
+    list-style-position:none;
+}
+
+.galmenu img{
+    width: 30%;
+    height: 30%;
+    margin:0 0px;
+    margin-left: 30pt;
+    margin-right: -150pt;
+    margin-bottom: 1000pt;
+    background-color:rgb(42, 69, 100) ;
+}
+
+.contact h2{
+    font-size: 9pt;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 250pt;
+}
+
+.form{
+    margin-left: 370pt;
+}
+
+.form input{
+    height: 25pt;
+    background: rgb(63, 62, 57);
+    border-color: rgb(229, 235, 235);
+    color:rgb(121, 118, 118);
+    size: 50%;
+    
+}
+
+.formcon input{
+    height: 205pt;
+    background: rgb(63, 62, 57);
+    color:rgb(121, 118, 118);
+    size: 50%;
+}
+
+
+.formcon input.image{
+    width: 10px;
+    height: 10px;
+    background: rgb(63, 62, 57);
+    color:rgb(121, 118, 118);
+    size: 50%;
+}
+
+.form textarea{
+    background: rgb(63, 62, 57);
+    border-color: rgb(229, 235, 235);
+    color:rgb(121, 118, 118);
+    size: 50%;   
+}
+
+.form .boton3{
+    margin-left: 250pt;
+    background: rgb(224, 212, 206);
+    border-color: rgb(229, 235, 235);
+    color:rgb(141, 67, 67);
+    size: 50%; 
+}
+
+.boton1:hover{
+   background-color: rgb(233, 224, 123);
+}
+
+.boton2:hover{
+    background-color: rgb(233, 224, 123);
+ }
+
+ .boton3:hover{
+    background-color: rgb(233, 224, 123);
+ }
+ 
+
+.ajedrez .ajbtn td{
+    margin: 420pt;
+}
+
+.tdep{
+    margin-left: 665pt;
+    margin-right: 200pt;
+    color:white;
+    font-size: 9pt;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: rgb(61, 61, 56);
+    border-collapse: separate;
+    border-spacing: 15px 20px;
+}
+
+.tdep h2{
+    text-align: left;
+}
+
+.tcat {
+    margin-left: 430pt;
+    margin-right: 200pt;
+    margin-top: -167pt;
+    color:white;
+    font-size: 9pt;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: rgb(61, 61, 56);
+    border-collapse: separate;
+    border-spacing: 15px 20px;
+}
+
+.tcat h2{
+    text-align: left;
+}
+
+.tpas {
+    margin-left: 430pt;
+    margin-right: 200pt;
+    margin-top: -20pt;
+    color:white;
+    font-size: 9pt;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: rgb(61, 61, 56);
+    border-collapse: separate;
+    border-spacing: 15px 20px;
+}
+
+.tpas h2{
+    text-align: left;
+}
+
+.thum {
+    margin-left: 665pt;
+    margin-right: 200pt;
+    margin-top: -180pt;
+    color:white;
+    font-size: 9pt;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: rgb(61, 61, 56);
+    border-collapse: separate;
+    border-spacing: 15px 20px;
+}
+
+.thum h2{
+    text-align: left;
+}
+
+.tcons th{
+    margin-left: 200pt;
+    color:white;
+    font-size: 14pt;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.blanc{
+    width: 40px;
+    height: 40px;
+    image-orientation:left;
+}
+
+.blancc{
+    width: 55px;
+    height: 35px;
+    image-orientation:left;
+}
+
+.conos a:hover{
+    background-color: rgba(199, 14, 85, 0.575);
+}
+
+.fecha{
+    color:white;
+    font-style: normal;
+    font-size: 10pt;
+}
